@@ -16,6 +16,20 @@ router.post("/notes", (req, res) =>{
         res.json(notes);
     });
 });
+// DELETE Request
+router.delete("/notes/:id",(req, res) =>{
+    var id = req.params.id;
+    notes.splice(id - 1, 1);
+
+    for (i=1; i < notes.length+1; i++){
+        notes[i-1].id = i;
+       
+    };
+
+    fs.writeFile("./db/db.json", JSON.stringify(notes), function () {
+        res.json(notes);
+    });
+});
 
 
 
