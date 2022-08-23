@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const notes = require('../../db/db.json');
 
-var fs = require("fs");
+const fs = require("fs");
 
 router.get('/notes', (req, res) => {
     res.json(notes);
@@ -18,7 +18,7 @@ router.post("/notes", (req, res) =>{
 });
 // DELETE Request
 router.delete("/notes/:id",(req, res) =>{
-    var id = req.params.id;
+    const id = req.params.id;
     notes.splice(id - 1, 1);
 
     for (i=1; i < notes.length+1; i++){

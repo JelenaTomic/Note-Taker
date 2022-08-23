@@ -1,12 +1,1 @@
-[
-    {
-        "title":"hello",
-        "text":"hi",
-        "id" :1
-    },
-    {
-        "title":"yeey",
-        "text":"uhu",
-        "id" :2
-    }
-]
+[{"title":"hello","text":"hi","id":1}]
