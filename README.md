@@ -16,7 +16,11 @@ An app that allows a user to create and save notes
 From Git Hub repository click CODE box, select SSH and copy the repository to your clipboard. In your command-line navigate to the folder you want to hold the repository. When cloning is completed open th VS code by typing 'code .' in your terminal. After that you will need to open terminal in your VS and create package.json by typing 'npm init' in your terminal. 
 
 ## Usage 
-Screen Recording 2022-08-23 at 10.06.52 PM.mov
+
+
+https://user-images.githubusercontent.com/106287916/186315386-c129f6bd-3d56-454b-bf2c-913af85242a2.mov
+
+
 
 ## Credits
 AskBCS
